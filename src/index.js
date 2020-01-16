@@ -103,14 +103,17 @@ class Game extends React.Component {
 		});
 
 		let status;
-		if (winner) {
+
+		if (winner && winner !== 'tie') {
 			status = `Player ${winner === 'X' ? '1' : '2'} Wins!`;
+		} else if (winner && winner === 'tie') {
+			status = "It's a Tie!";
 		} else {
 			status = `Player ${this.state.xIsNext ? '1' : '2'}'s Turn`;
 		}
 
 		return (
-			<div className="wholeShabang">
+			<div>
 				<header>Tic-Tac-Toe</header>
 				<div className="game">
 					<div className="game-board">
@@ -139,6 +142,8 @@ function calculateWinner(squares) {
 		const [a, b, c] = lines[i];
 		if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
 			return squares[a];
+		} else if (!squares.includes(null)) {
+			return 'tie';
 		}
 	}
 	return null;
