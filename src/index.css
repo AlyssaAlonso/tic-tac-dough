@@ -41,8 +41,6 @@ li {
 
 .game-info {
 	display: grid;
-	width: 220px;
-	justify-items: center;
 	align-items: flex-start;
 }
 
