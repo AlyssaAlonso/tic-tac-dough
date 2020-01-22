@@ -33,12 +33,11 @@ li {
 }
 
 .game {
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .game-info {
-	margin-left: 15px;
 	width: 180px;
 }
 
