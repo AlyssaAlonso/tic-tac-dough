@@ -1,5 +1,5 @@
 {
-  "main.css": "/tic-tac-dough/static/css/main.d095f96c.chunk.css",
+  "main.css": "/tic-tac-dough/static/css/main.a625fcd5.chunk.css",
   "main.js": "/tic-tac-dough/static/js/main.b4b23b12.chunk.js",
   "main.js.map": "/tic-tac-dough/static/js/main.b4b23b12.chunk.js.map",
   "runtime~main.js": "/tic-tac-dough/static/js/runtime~main.36d40c2f.js",
@@ -7,8 +7,8 @@
   "static/js/2.0e3f6a1a.chunk.js": "/tic-tac-dough/static/js/2.0e3f6a1a.chunk.js",
   "static/js/2.0e3f6a1a.chunk.js.map": "/tic-tac-dough/static/js/2.0e3f6a1a.chunk.js.map",
   "index.html": "/tic-tac-dough/index.html",
-  "precache-manifest.9349117667f80d9dd1c016730b50c10d.js": "/tic-tac-dough/precache-manifest.9349117667f80d9dd1c016730b50c10d.js",
+  "precache-manifest.2e2c6e1118049f523533bced99a4ea24.js": "/tic-tac-dough/precache-manifest.2e2c6e1118049f523533bced99a4ea24.js",
   "service-worker.js": "/tic-tac-dough/service-worker.js",
-  "static/css/main.d095f96c.chunk.css.map": "/tic-tac-dough/static/css/main.d095f96c.chunk.css.map",
+  "static/css/main.a625fcd5.chunk.css.map": "/tic-tac-dough/static/css/main.a625fcd5.chunk.css.map",
   "static/media/index.css": "/tic-tac-dough/static/media/X.36bd3b60.png"
 }
